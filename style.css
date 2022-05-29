@@ -179,10 +179,9 @@ header nav ul li a{
 
 .destacados {
     background-color: #1f1f1f;
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
     padding: 20px;
 }
 
