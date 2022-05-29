@@ -20,9 +20,7 @@ body {
     width: 100%;
 }
 
-ul li {
-    color: white;
-}
+
 
 p {
     color: white;
@@ -127,6 +125,8 @@ header nav ul li a{
 }
 
 
+
+
 .footer {
     background-color: black;
     margin-top: auto;
@@ -159,22 +159,9 @@ header nav ul li a{
 }
 
 .sucursales{
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
     padding: 20px;
-    margin-left: 50px;
 }
 
-.item-sucursal {
-    border: 3px solid black;
-}
-
-.sucursal-container img {
-    width: 30em;
-    height: 15em;
-}
 
 
 .destacados {
