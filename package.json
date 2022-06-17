@@ -1,7 +1,7 @@
 {
   "name": "proyecto-final---espinosa",
   "version": "1.0.0",
-  "description": "",
+  "description": "Proyecto final sobre web de automotores",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1","build-css": "node-sass --include-path scss scss/styles.scss css/style.css","watch-css": "nodemon -e scss -x \"npm run build-css\""
